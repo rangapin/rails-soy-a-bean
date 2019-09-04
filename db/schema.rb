@@ -10,6 +10,59 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2019_09_04_190752) do
+
+  create_table "attributes", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "beans", force: :cascade do |t|
+    t.string "name"
+    t.string "date"
+    t.string "plantstand"
+    t.string "precip"
+    t.string "temp"
+    t.boolean "hail"
+    t.string "crophist"
+    t.string "areadamaged"
+    t.string "severity"
+    t.string "seedtmt"
+    t.integer "germination"
+    t.string "plantgrowth"
+    t.boolean "leaves"
+    t.string "leafspotshalo"
+    t.string "leafspotsmarg"
+    t.string "leafspotssize"
+    t.boolean "leafshread"
+    t.boolean "leafmalf"
+    t.string "leafmild"
+    t.boolean "stem"
+    t.boolean "lodging"
+    t.string "stemcanpantkers"
+    t.string "cankerlesion"
+    t.boolean "fruitingbodies"
+    t.string "externaldecay"
+    t.boolean "mycelium"
+    t.string "intdiscolor"
+    t.boolean "sclerotia"
+    t.string "fruitspods"
+    t.string "fruitsspots"
+    t.string "seed"
+    t.boolean "moldgrowth"
+    t.boolean "seeddiscolor"
+    t.string "seedsize"
+    t.boolean "shriveling"
+    t.string "roots"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "values", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end

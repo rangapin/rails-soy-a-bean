@@ -1,0 +1,37 @@
+class Bean < ApplicationRecord
+  has_many :name
+  has_many :date
+  has_many :plantstand
+  has_many :precip
+  has_many :temp
+  has_many :hail
+  has_many :crophist
+  has_many :areadamaged
+  has_many :severity
+  has_many :seedtmt
+  has_many :germination
+  has_many :plantgrowth
+  has_many :leaves
+  has_many :leafspotshalo
+  has_many :leafspotsmarg
+  has_many :leafspotsize
+  has_many :leafmalf
+  has_many :leafmild
+  has_many :stem
+  has_many :lodging
+  has_many :stemcankers
+  has_many :cankerlesion
+  has_many :fruitingbodies
+  has_many :externaldecay
+  has_many :mycelium
+  has_many :intdiscolor
+  has_many :sclerotia
+  has_many :fruitpods
+  has_many :fruitspots
+  has_many :seed
+  has_many :moldgrowth
+  has_many :seeddiscolor
+  has_many :seedsize
+  has_many :shriveling
+  has_many :roots
+end
