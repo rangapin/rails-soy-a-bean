@@ -1,0 +1,11 @@
+<h1>Search for beans</h1>
+<p>& Filter like a pro</p>
+  <div class="container">
+    <%= form_tag bean_result_path, method: :get do %>
+    <%= text_field_tag :query, params[:query],
+      class: "form-control", placeholder: "Find a bean" %>
+
+    <%= submit_tag "Search", class: "btn btn-primary" %>
+<% end %>
+  </div>
+
