@@ -1,3 +1,3 @@
 class Value < ApplicationRecord
-  belongs_to :attri
+  belongs_to :attributes_list
 end

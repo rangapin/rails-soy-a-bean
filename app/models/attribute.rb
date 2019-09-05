@@ -1,3 +1,3 @@
 class Attribute < ApplicationRecord
-  belongs_to :values
+  belongs_to :v
 end
