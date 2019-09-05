@@ -6,36 +6,36 @@ class CreateBeans < ActiveRecord::Migration[5.2]
       t.string :plantstand
       t.string :precip
       t.string :temp
-      t.boolean :hail
+      t.string :hail
       t.string :crophist
       t.string :areadamaged
       t.string :severity
       t.string :seedtmt
       t.integer :germination
       t.string :plantgrowth
-      t.boolean :leaves
+      t.string :leaves
       t.string :leafspotshalo
       t.string :leafspotsmarg
-      t.string :leafspotssize
-      t.boolean :leafshread
-      t.boolean :leafmalf
+      t.string :leafspotsize
+      t.string :leafshread
+      t.string :leafmalf
       t.string :leafmild
-      t.boolean :stem
-      t.boolean :lodging
-      t.string :stemcanpantkers
+      t.string :stem
+      t.string :lodging
+      t.string :stemcankers
       t.string :cankerlesion
-      t.boolean :fruitingbodies
+      t.string :fruitingbodies
       t.string :externaldecay
-      t.boolean :mycelium
+      t.string :mycelium
       t.string :intdiscolor
-      t.boolean :sclerotia
-      t.string :fruitspods
-      t.string :fruitsspots
+      t.string :sclerotia
+      t.string :fruitpods
+      t.string :fruitspots
       t.string :seed
-      t.boolean :moldgrowth
-      t.boolean :seeddiscolor
+      t.string :moldgrowth
+      t.string :seeddiscolor
       t.string :seedsize
-      t.boolean :shriveling
+      t.string :shriveling
       t.string :roots
 
       t.timestamps
